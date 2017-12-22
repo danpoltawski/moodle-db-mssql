@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server-linux:latest
+FROM microsoft/mssql-server-linux:2017-GA
 
 RUN apt-get -y update  && apt-get install -y netcat
 
